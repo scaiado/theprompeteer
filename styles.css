@@ -51,8 +51,22 @@ main {
   height: auto;
 }
 
+.bio {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 .social-links {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: inherit;  /* Or any color you prefer */
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #666;  /* Or any other color for the hover effect */
 }
